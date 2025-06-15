@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Ana Flávia Imóveis</title>
+  </head>
+  <body>
+    <header class="header-style">
+      <div class="left-header-style">
+        <h1>Ana Flávia</h1>
+        <img
+          src="./assets/homepage/casa.png"
+          width="30"
+          height="30"
+          alt="Casa"
+        />
+        <h1>Imóveis</h1>
+      </div>
+      <div class="right-reader-style">
+        <img
+          src="./assets/homepage/whatsapp.png"
+          width="20"
+          height="20"
+          alt="WhatsApp"
+        />
+        <h2>(16)99738-5327</h2>
+      </div>
+    </header>
+
+    <section class="presentation-center">
+      <div class="presentation-center-left">
+        <p class="presentation-center-left-p">Empreendimentos</p>
+        <p>Novos</p>
+        <p>a sua espera!</p>
+      </div>
+      <div class="white-block">
+        <h2 class="white-block-header">Cadastre-se para saber novidades</h2>
+        <h2 class="white-block-header">ou realizar sua simulação Online!</h2>
+        <form class="white-block-form">
+          <label for="nome" class="sr-only">Nome</label>
+          <input
+            class="white-block-input"
+            type="text"
+            id="nome"
+            name="nome"
+            placeholder="Digite seu Nome"
+            required
+          />
+          <label for="email" class="sr-only">Email</label>
+          <input
+            class="white-block-input"
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Digite seu Email"
+            required
+          />
+          <label for="telefone" class="sr-only">Telefone</label>
+          <input
+            class="white-block-input"
+            type="tel"
+            id="telefone"
+            name="telefone"
+            placeholder="Digite seu Telefone"
+            required
+          />
+          <button class="white-block-btn" type="submit">CADASTRAR</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="presentation-lower">
+      <div class="presentation-lower-itens">
+        <a href="#">
+          <img
+            src="./assets/homepage/casa-nova.png"
+            width="200"
+            height="200"
+            alt="Casa nova"
+          />
+        </a>
+        <button class="presentation-lower-button">
+          Verificar casas disponíveis!
+        </button>
+      </div>
+      <div class="presentation-lower-itens">
+        <a href="#">
+          <img
+            src="./assets/homepage/apartamento.png"
+            width="200"
+            height="200"
+            alt="Apartamento"
+          />
+        </a>
+        <button class="presentation-lower-button">
+          Verificar apartamentos disponíveis!
+        </button>
+      </div>
+      <div class="presentation-lower-itens">
+        <a href="#">
+          <img
+            src="./assets/homepage/terreno.png"
+            width="200"
+            height="200"
+            alt="Terreno"
+          />
+        </a>
+        <button class="presentation-lower-button">
+          Verificar opções de terrenos disponíveis!
+        </button>
+      </div>
+    </section>
+
+    <section class="carousel-container">
+      <input type="radio" name="carousel" id="carousel-1" checked />
+      <input type="radio" name="carousel" id="carousel-2" />
+      <input type="radio" name="carousel" id="carousel-3" />
+      <div class="carousel-slides">
+        <div class="carousel-slide">
+          <img
+            src="./assets/imoveis/apartamentos.jpg"
+            alt="Imagem 1"
+            style="
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+              border-radius: 10px;
+            "
+          />
+        </div>
+        <div class="carousel-slide">
+          <img
+            src="./assets/imoveis/casa_isolada.jpg"
+            alt="Imagem 2"
+            style="
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+              border-radius: 10px;
+            "
+          />
+        </div>
+        <div class="carousel-slide">
+          <img
+            src="./assets/imoveis/predio.jpg"
+            alt="Imagem 3"
+            style="
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+              border-radius: 10px;
+            "
+          />
+        </div>
+      </div>
+      <div class="carousel-navigation">
+        <label for="carousel-1" class="carousel-dot"></label>
+        <label for="carousel-2" class="carousel-dot"></label>
+        <label for="carousel-3" class="carousel-dot"></label>
+      </div>
+    </section>
+
+    <footer class="footer-home">
+      <div class="footer-home-image">
+        <img src="./assets/homepage/familia-casanova.jpg" alt="Família" />
+      </div>
+      <div class="footer-home-itens">
+        <h3>Sonha em ter sua casa?</h3>
+        <a href="#" class="footer-link destaque">Sobre Nós</a>
+        <a href="#" class="footer-link">Entre em contato</a>
+        <a href="#" class="footer-link">Termos e condições</a>
+        <hr class="footer-line" />
+        <div class="footer-home-social">
+          <h3>Copyright 2025</h3>
+          <div class="footer-home-social-icons">
+            <a href="#"
+              ><img
+                src="./assets/homepage/instagram.png"
+                width="50"
+                alt="Instagram"
+            /></a>
+            <a href="#"
+              ><img
+                src="./assets/homepage/facebook.png"
+                width="50"
+                alt="Facebook"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
